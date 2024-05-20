@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Search App</title>
-    <link rel="icon" type="image/x-icon" href="/favicon_io/this.png">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="icon" type="image/x-icon" href="/favicon_io/this.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Image Search App</h1>
     <form action="">
-        <input type="text" id="search-input" placeholder="Search For Images">
-        <button id="search-button">Search</button>
+      <input type="text" id="search-input" placeholder="Search For Images" />
+      <button id="search-button">Search</button>
     </form>
     <div class="search-results">
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1701031977495-0351a1c8d889?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
-                alt="image">
-            <a href="https://unsplash.com/photos/a-house-on-top-of-a-grassy-hill-Xn3vcIpPi1E" target="_blank">a house on
-                top of a grassy hill</a>
-        </div>
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1682687220945-922198770e60?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image">
-            <a href="https://unsplash.com/photos/an-ostrich-looking-at-the-camera-with-a-blurry-background-YpUFf0kOWQ0" target="_blank">an ostrich looking at the camera</a>
-        </div>
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1702336467664-18469b8f4ecf?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image">
-            <a href="https://unsplash.com/photos/a-black-dog-with-a-yellow-collar-looking-up-aVavrd47X8Y" target="_blank">a black dog with a yellow collar</a>
-        </div>
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1682019323081-94c07163c3e9?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image">
-            <a href="https://unsplash.com/photos/a-red-sports-car-parked-in-front-of-a-castle-bIcWHROkyXc" target="_blank">a red sports car parked in front of a castle</a>
-        </div>
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1491884662610-dfcd28f30cfb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image">
-            <a href="https://unsplash.com/photos/photo-of-himeji-castle-wPMvPMD9KBI" target="_blank">Himeji Castle</a>
-        </div>
-        <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image">
-            <a href="https://unsplash.com/photos/people-gathered-outside-buildings-and-vehicles-alY6_OpdwRQ" target="_blank">Tokyo</a>
-        </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1701031977495-0351a1c8d889?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/a-house-on-top-of-a-grassy-hill-Xn3vcIpPi1E"
+          target="_blank"
+          >a house on top of a grassy hill</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1682687220945-922198770e60?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/an-ostrich-looking-at-the-camera-with-a-blurry-background-YpUFf0kOWQ0"
+          target="_blank"
+          >an ostrich looking at the camera</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1702336467664-18469b8f4ecf?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/a-black-dog-with-a-yellow-collar-looking-up-aVavrd47X8Y"
+          target="_blank"
+          >a black dog with a yellow collar</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1682019323081-94c07163c3e9?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/a-red-sports-car-parked-in-front-of-a-castle-bIcWHROkyXc"
+          target="_blank"
+          >a red sports car parked in front of a castle</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1491884662610-dfcd28f30cfb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/photo-of-himeji-castle-wPMvPMD9KBI"
+          target="_blank"
+          >Himeji Castle</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="image"
+        />
+        <a
+          href="https://unsplash.com/photos/people-gathered-outside-buildings-and-vehicles-alY6_OpdwRQ"
+          target="_blank"
+          >Tokyo</a
+        >
+      </div>
     </div>
     <button id="show-more-button">Load More</button>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
